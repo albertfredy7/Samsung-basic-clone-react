@@ -1,0 +1,58 @@
+.nav-items {
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+  margin-right: 10px;
+  display: inline-block; /* Ensures the element has a layout and can be styled */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 20px; /* Adjust the border-radius to make it more or less rounded */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.nav-items:hover {
+  background-color: black;
+  color: white;
+}
+.footer-category__list {
+  list-style: none; /* Remove the default list-style (dots) */
+  padding: 0; /* Remove any default padding */
+}
+
+.footer-category__item a {
+  text-decoration: none; /* Remove text decoration */
+  color: rgb(47, 47, 47); /* Set the text color to black */
+  font-size: 14px;
+}
+
+/* Optional: Add padding or margin to create spacing between list items */
+.footer-category__item {
+  margin-bottom: 10px;
+}
+.footer-content{
+  border-right: 1px solid #ccc;
+}
+.arrow{
+  color: gray;
+  font-size: 13px;
+}
+.hero h1{
+  color: white;
+  font-weight: 900;
+  font-size:35px ;
+}
+.highlights-items ul{
+  list-style: none; /* Remove the default list-style (dots) */
+  padding: 0; /* Remove any default padding */
+}
+.highlights-items a{
+  text-decoration: none; /* Remove text decoration */
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description p{
+  color: gray;
+  font-size: 12px;
+}
+
